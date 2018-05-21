@@ -7,6 +7,6 @@ module.exports = {
     ]
   },
   css: [
-    '@/node_modules/bulma/bulma.sass'
+    '@/global.scss'
   ]
 }

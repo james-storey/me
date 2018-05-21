@@ -1,0 +1,24 @@
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+// update initial variables
+$pad1: 2em;
+$pad2: 1em;
+$pad3: 0.5em;
+
+$border-width: 4px;
+
+// set derived vars
+$primary: $purple;
+$text: $black-bis;
+$navbar-item-color: $text;
+$title-color: $text;
+
+$box-radius: 0;
+$box-padding: $pad2;
+$box-shadow: unset;
+$footer-background-color: $white;
+@import "node_modules/bulma/sass/utilities/derived-variables";
+@import "node_modules/bulma/sass/utilities/mixins";
+// add derived variables to maps
+
+@import "node_modules/bulma/bulma";
