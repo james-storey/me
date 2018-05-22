@@ -7,6 +7,6 @@ module.exports = {
     ]
   },
   css: [
-    '@/global.scss'
+    '@/_global.scss'
   ]
 }

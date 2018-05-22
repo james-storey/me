@@ -15,10 +15,8 @@ $title-color: $text;
 
 $box-radius: 0;
 $box-padding: $pad2;
-$box-shadow: unset;
+$box-shadow: unsset;
 $footer-background-color: $white;
 @import "node_modules/bulma/sass/utilities/derived-variables";
 @import "node_modules/bulma/sass/utilities/mixins";
-// add derived variables to maps
-
-@import "node_modules/bulma/bulma";
+// add derived variables to map

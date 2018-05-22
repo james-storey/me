@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../global.scss";
+@import "../_variables.scss";
 .navbar {
   margin: $pad1;
 }
