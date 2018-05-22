@@ -8,10 +8,16 @@
       .contact
         img.inline-icon(src="@/node_modules/open-iconic/svg/envelope-closed.svg" alt="envelope")
         span(style="unicode-bidi:bidi-override; direction: rtl;") {{liame}}
+    a.navbar-burger(data-target="navMenu", role="button" aria-label="menu" aria-expanded="false")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
   .navbar-menu
-    .navbar-item
-      ul
-        li.role-link(v-for="role in roles" :class="{ selected: role.selected }") {{role.name}}
+    .navbar-start
+      .navbar-item
+        ul
+          li.role-link(v-for="role in roles" :class="{ selected: role.selected }") {{role.name}}
+    .navbar-end
 </template>
 
 <script>
@@ -98,5 +104,18 @@ export default {
   color: $black-bis;
   border-bottom: $border-width solid $primary;
   padding-bottom: 0px;
+}
+
+.navbar-burger span {
+  width: 32px;
+  height: $border-width;
+  background-color: $black-bis;
+  left: calc(50% - 16px);
+}
+.navbar-burger span:nth-child(1) {
+  top: calc(50% - 10px);
+}
+.navbar-burger span:nth-child(3) {
+  top: calc(50% + 8px);
 }
 </style>
