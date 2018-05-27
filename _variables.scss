@@ -7,11 +7,17 @@ $pad3: 0.5em;
 
 $border-width: 4px;
 
+$orange: #ff5e5b;
+
 // set derived vars
 $primary: $purple;
+
 $text: $black-bis;
 $navbar-item-color: $text;
 $title-color: $text;
+$link: $orange;
+$link-visted: $red;
+$link-focus-border: $orange;
 
 $box-radius: 0;
 $box-padding: $pad2;
@@ -20,3 +26,6 @@ $footer-background-color: $white;
 @import "node_modules/bulma/sass/utilities/derived-variables";
 @import "node_modules/bulma/sass/utilities/mixins";
 // add derived variables to map
+$primary-invert: $purple-invert;
+$orange-invert: findColorInvert($orange);
+$link-invert: $orange-invert;
