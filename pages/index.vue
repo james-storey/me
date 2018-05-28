@@ -7,37 +7,43 @@
           .tile.is-child.box
             article
               p.title Bio
-              p
-                | James hails from Bryan, Texas while finishing his Masters of Science in Visualization.
-                | A professional Software Developer since 2013, he has designed and created software of many shapes
-                | and sizes.
+              p {{ $store.state.bio }}
         .tile.is-parent
           .tile.is-child.box
             article
               p.title Education
+              p {{ $store.state.edu }}
       .tile.is-vertical
         .tile.is-parent
           .tile.is-child.box
             article
               p.title Experience
+              p {{ $store.state.exp }}
         .tile.is-parent
           .tile.is-child.box
             article
               p.title Projects
+              p {{ $store.state.proj }}
     .tile
       .tile.is-parent
         .tile.is-child.box
           article
             p.title Skills
+            p {{ $store.state.skills }}
   .tile.is-parent
     .tile.is-child.box
       article
         p.title Blog
+        blog-preview
 </template>
 
 <script>
 export default {
+  data () {
+    return {
 
+    }
+  }
 }
 </script>
 
