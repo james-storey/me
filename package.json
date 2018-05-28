@@ -13,6 +13,7 @@
     "pub": "next generate && rsync -vr --delete ./dist/* root@couch.sysreturn.net:/srv/www/me"
   },
   "dependencies": {
+    "@nuxtjs/markdownit": "^1.2.1",
     "bulma": "^0.7.1",
     "node-sass": "^4.9.0",
     "nuxt": "^1.4.0",

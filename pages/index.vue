@@ -6,30 +6,25 @@
         .tile.is-parent
           .tile.is-child.box
             article
-              p.title Bio
-              bio
+              .content(v-html="bio")
         .tile.is-parent
           .tile.is-child.box
             article
-              p.title Education
-              p {{ $store.state.edu }}
+              .content(v-html="edu")
       .tile.is-vertical
         .tile.is-parent
           .tile.is-child.box
             article
-              p.title Experience
-              p {{ $store.state.exp }}
+              .content(v-html="exp")
         .tile.is-parent
           .tile.is-child.box
             article
-              p.title Projects
-              p {{ $store.state.proj }}
+              .content(v-html="proj")
     .tile
       .tile.is-parent
         .tile.is-child.box
           article
-            p.title Skills
-            p {{ $store.state.skills }}
+            .content(v-html="skills")
   .tile.is-parent
     .tile.is-child.box
       article
@@ -38,14 +33,32 @@
 </template>
 
 <script>
-  import Bio from '@/components/Bio.vue'
+  import Bio from '~/assets/bio.md'
+  import Edu from '~/assets/edu.md'
+  import Exp from '~/assets/exp.md'
+  import Skills from '~/assets/skills.md'
+  import Proj from '~/assets/proj.md'
   export default {
-    components: {
-      'bio': Bio
-    },
     data () {
       return {
         
+      }
+    },
+    computed: {
+      bio () {
+        return Bio
+      },
+      edu () {
+        return Edu
+      },
+      exp () {
+        return Exp
+      },
+      skills () {
+        return Skills
+      },
+      proj () {
+        return Proj
       }
     }
   }

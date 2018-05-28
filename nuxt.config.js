@@ -11,5 +11,13 @@ module.exports = {
   },
   css: [
     '@/_global.scss'
-  ]
+  ],
+  modules: [
+    '@nuxtjs/markdownit'
+  ],
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: false
+  }
 }
