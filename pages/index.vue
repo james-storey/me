@@ -7,7 +7,7 @@
           .tile.is-child.box
             article
               p.title Bio
-              p {{ $store.state.bio }}
+              bio
         .tile.is-parent
           .tile.is-child.box
             article
@@ -34,17 +34,21 @@
     .tile.is-child.box
       article
         p.title Blog
-        blog-preview
+        // blog-preview
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-
+  import Bio from '@/components/Bio.vue'
+  export default {
+    components: {
+      'bio': Bio
+    },
+    data () {
+      return {
+        
+      }
     }
   }
-}
 </script>
 
 <style lang="scss">

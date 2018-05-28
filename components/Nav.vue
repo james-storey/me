@@ -2,7 +2,7 @@
 .navbar
   .navbar-brand
     .navbar-icon.image.profile
-      img(src="profile.jpg")
+      img(src="~/assets/profile.jpg")
     .navbar-brand__text
       .name {{name}}
       .contact
