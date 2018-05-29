@@ -37,11 +37,11 @@ export default {
         },
         {
           selected: false,
-          name: "Artist"
+          name: "Art and Photography"
         },
         {
           selected: false,
-          name: "Musician"
+          name: "Music"
         }
       ]
     }

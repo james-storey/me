@@ -6,8 +6,8 @@ div
 </template>
 
 <script>
-import nav from '@/components/Nav.vue'
-import footer from '@/components/Footer.vue'
+import nav from '~/components/Nav.vue'
+import footer from '~/components/Footer.vue'
 export default {
   components: {
     'navbar': nav,
