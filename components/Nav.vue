@@ -8,6 +8,14 @@
       .contact
         img.inline-icon(src="@/node_modules/open-iconic/svg/envelope-closed.svg" alt="envelope")
         span(style="unicode-bidi:bidi-override; direction: rtl;") {{liame}}
+      .contact
+        img.inline-icon(src="~/assets/Twitter_Logo_Blue.svg" alt="twitter")
+        span
+          a(:href="twitter_url") {{ twitter_handle }}
+      .contact
+        img.inline-icon(src="~/assets/In-2C-14px.png" alt="linkedin")
+        span
+          a(:href="linkedin_url") {{ linkedin_handle }}
     a.navbar-burger(data-target="navMenu", role="button" aria-label="menu" aria-expanded="false")
       span(aria-hidden="true")
       span(aria-hidden="true")
@@ -26,6 +34,10 @@ export default {
     return {
       name: "James Storey",
       email: "james@sysreturn.net",
+      twitter_url: "https://twitter.com/auxreturn",
+      twitter_handle: "@auxreturn",
+      linkedin_url: "https://www.linkedin.com/in/james-storey-04231934/",
+      linkedin_handle: "james-storey",
       roles: [
         {
           selected: true,
@@ -87,7 +99,7 @@ export default {
 
 .inline-icon {
   position: relative;
-  margin: 0 0.25em -0.25em 0;
+  margin: 0 0.25em -0.125em 0;
   width: $pad2;
 }
 
