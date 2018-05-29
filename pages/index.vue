@@ -19,12 +19,12 @@
         .tile.is-parent
           .tile.is-child.box
             article
-              .content(v-html="proj")
+              .content(v-html="skills")
     .tile
       .tile.is-parent
         .tile.is-child.box
           article
-            .content(v-html="skills")
+            .content(v-html="proj")
   .tile.is-parent
     .tile.is-child.box
       article
@@ -66,7 +66,11 @@
 
 <style lang="scss">
 @import "../_variables.scss";
+.tile.is-ancestor {
+  margin: 1.25rem;
+}
 .box {
-  // border: $border-width solid $black-bis;
+  border: $border-width solid $black-bis;
+  box-shadow: $shadow-width $shadow-width 0 $primary;
 }
 </style>

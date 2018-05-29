@@ -68,7 +68,7 @@ export default {
   border: $border-width solid $black-bis;
   width: 128px;
   height: 128px;
-  box-shadow: -5px -5px 0 $primary;
+  box-shadow: $shadow-width $shadow-width 0 $primary;
   @include mobile {
     width: 64px;
     height: 64px;
@@ -76,13 +76,13 @@ export default {
 }
 
 .navbar-brand__text {
+  margin-left: $pad3;
   padding: 0 $pad3 0 $pad3;
 }
 
 .name {
   font-size: xx-large;
   font-weight: bold;
-  //text-shadow: -10px 0px 0px $purple;
 }
 
 .inline-icon {
