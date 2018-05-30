@@ -26,6 +26,10 @@ $box-padding: $size-6;
 $box-shadow: unsset;
 $footer-background-color: $white;
 $hr-background-color: $grey-light;
+
+$family-custom: "Lato", sans-serif;
+$family-primary: $family-custom;
+
 @import "node_modules/bulma/sass/utilities/derived-variables";
 @import "node_modules/bulma/sass/utilities/mixins";
 // add derived variables to map
