@@ -73,34 +73,50 @@ export default {
 <style lang="scss">
 @import "../_variables.scss";
 .navbar {
-  margin: $pad1;
+  margin: $size-3;
+  @include mobile {
+    margin: $size-6;
+  }
 }
 
 .profile {
   border: $border-width solid $black-bis;
-  width: 128px;
   height: 128px;
   box-shadow: $shadow-width $shadow-width 0 $primary;
   @include mobile {
-    width: 64px;
     height: 64px;
   }
 }
 
+.navbar-icon {
+  display: flex;
+  flex: 0 0 128px;
+  @include mobile {
+    flex: 0 0 64px;
+  }
+}
+
 .navbar-brand__text {
-  margin-left: $pad3;
-  padding: 0 $pad3 0 $pad3;
+  margin-left: $size-7;
+  padding: 0 $size-7 0 $size-7;
 }
 
 .name {
   font-size: xx-large;
   font-weight: bold;
+  @include mobile {
+    font-size: x-large;
+  }
+}
+
+.contact {
+  white-space: nowrap;
 }
 
 .inline-icon {
   position: relative;
   margin: 0 0.25em -0.125em 0;
-  width: $pad2;
+  width: $size-6;
 }
 
 .role-link {

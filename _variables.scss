@@ -1,10 +1,7 @@
 @import "node_modules/bulma/sass/utilities/initial-variables";
 @import "node_modules/bulma/sass/utilities/functions";
 // update initial variables
-$pad1: 2rem;
-$pad2: 1rem;
-$pad3: 0.5rem;
-
+$size-7: 0.5rem;
 $border-width: 4px;
 $shadow-width: 10px;
 
@@ -25,7 +22,7 @@ $link-focus-border: $secondary;
 $content-heading-color: $black-bis;
 
 $box-radius: 0;
-$box-padding: $pad2;
+$box-padding: $size-6;
 $box-shadow: unsset;
 $footer-background-color: $white;
 $hr-background-color: $grey-light;
@@ -35,3 +32,7 @@ $hr-background-color: $grey-light;
 $primary-invert: $purple-invert;
 $orange-invert: findColorInvert($orange);
 $link-invert: $orange-invert;
+$addColors: (
+  "orange":($orange, $orange-invert)
+);
+$colors: map-merge($colors, $addColors);

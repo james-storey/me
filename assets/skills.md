@@ -1,11 +1,17 @@
 # Skills
-* Unity3D Gameplay programmer
-* Unity3D Systems Engineer
-* Network Application Developer
-* Web-application Developer
-* E-commerce application Developer
-* API Service Developer
-* Real-time metrics and analyitics
-* Backend Developer
-* Database Admin / Architect
-* Cloud Service Architect
+* Tools
+  * Node.js
+  * HTML / CSS / JS
+  * Linux Administration
+  * Python
+  * Nginx Web Server
+  * MariaDB / MySQL Admin
+  * Go
+  * C#
+* Knowledge
+  * Web Applications
+  * API Design and Development
+  * Real-Time metrics and analytics
+  * AWS Cloud Infrastructure
+  * Database Design
+  * Unity3D

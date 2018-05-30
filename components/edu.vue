@@ -3,15 +3,21 @@ div
   h1.title Education
   div(v-for='(item, index) in creds')
     .columns
-      .column.is-one-fifth.edu-icon
+      .column.is-one-fifth.exp-icon
         img(:src="item.iconSrc")
       .column
-        .columns.is-multiline
-          .column {{ item.institution }}
-          .column {{ item.degree }}
+        .columns
+          .column
+            b {{ item.institution }}
           .column {{ item.year }}
+        .columns
+          .column {{ item.degree }}
         .columns(v-if="item.thesis")
-          .column Thesis: {{ item.thesis }}
+          .column
+            i Thesis:
+            |
+            | {{ item.thesis }}
+
     hr(v-if="index + 1 != creds.length")
 </template>
 
@@ -47,7 +53,7 @@ export default {
 </script>
 
 <style lang="scss">
-.edu-icon {
+.exp-icon {
   max-width: 96px;
 }
 </style>

@@ -15,11 +15,11 @@
         .tile.is-parent
           .tile.is-child.box
             article
-              .content(v-html="exp")
+              exp
         .tile.is-parent
           .tile.is-child.box
             article
-              .content(v-html="skills")
+              skills
     .tile
       .tile.is-parent
         .tile.is-child.box
@@ -35,12 +35,14 @@
 <script>
   import Bio from '~/assets/bio.md'
   import Edu from '~/components/edu.vue'
-  import Exp from '~/assets/exp.md'
-  import Skills from '~/assets/skills.md'
+  import Exp from '~/components/exp.vue'
+  import Skills from '~/components/skills.vue'
   import Proj from '~/assets/proj.md'
   export default {
     components: {
-      'edu': Edu
+      'edu': Edu,
+      'exp': Exp,
+      'skills': Skills
     },
     data () {
       return {
@@ -50,12 +52,6 @@
     computed: {
       bio () {
         return Bio
-      },
-      exp () {
-        return Exp
-      },
-      skills () {
-        return Skills
       },
       proj () {
         return Proj
@@ -68,6 +64,9 @@
 @import "../_variables.scss";
 .tile.is-ancestor {
   margin: 1.25rem;
+  @include mobile {
+    margin: 0.25rem;
+  }
 }
 .box {
   border: $border-width solid $black-bis;
