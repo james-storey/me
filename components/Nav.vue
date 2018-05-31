@@ -104,6 +104,7 @@ export default {
 .name {
   font-size: xx-large;
   font-weight: bold;
+  font-family: $family-title;
   @include mobile {
     font-size: x-large;
   }

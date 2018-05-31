@@ -26,9 +26,11 @@ $box-padding: $size-6;
 $box-shadow: unsset;
 $footer-background-color: $white;
 $hr-background-color: $grey-light;
-
-$family-custom: "Lato", sans-serif;
-$family-primary: $family-custom;
+//$family-title: "Clear Sans", sans-serif;
+$family-title: "Now", sans-serif;
+//$family-title: "Lato", sans-serif;
+//$family-title: $family-sans-serif;
+$family-primary: "Lato", sans-serif;
 
 @import "node_modules/bulma/sass/utilities/derived-variables";
 @import "node_modules/bulma/sass/utilities/mixins";
