@@ -28,8 +28,8 @@
   .tile.is-parent
     .tile.is-child.box
       article
-        p.title Blog
-        // blog-preview
+        h1.title Blog
+        blog(v-bind:entries='3', v-bind:entryDate="new Date()", v-bind:entrySize="15")
 </template>
 
 <script>
@@ -38,12 +38,14 @@
   import Exp from '~/components/exp.vue'
   import Skills from '~/components/skills.vue'
   import Proj from '~/components/proj.vue'
+  import Blog from '~/components/blog.vue'
   export default {
     components: {
       'edu': Edu,
       'exp': Exp,
       'skills': Skills,
-      'proj': Proj
+      'proj': Proj,
+      'blog': Blog
     },
     data () {
       return {
