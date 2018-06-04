@@ -24,7 +24,7 @@
       .tile.is-parent
         .tile.is-child.box
           article
-            .content(v-html="proj")
+            proj
   .tile.is-parent
     .tile.is-child.box
       article
@@ -37,24 +37,17 @@
   import Edu from '~/components/edu.vue'
   import Exp from '~/components/exp.vue'
   import Skills from '~/components/skills.vue'
-  import Proj from '~/assets/proj.md'
+  import Proj from '~/components/proj.vue'
   export default {
     components: {
       'edu': Edu,
       'exp': Exp,
-      'skills': Skills
+      'skills': Skills,
+      'proj': Proj
     },
     data () {
       return {
-
-      }
-    },
-    computed: {
-      bio () {
-        return Bio
-      },
-      proj () {
-        return Proj
+        bio: Bio
       }
     }
   }
