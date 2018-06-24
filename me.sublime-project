@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"index_exclude_patterns": [
+  				"node_modules/**",
+  				".nuxt/**"
+  			]
+		}
+	],
+	"settings":
+	{
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true
+	}
+}
