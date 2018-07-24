@@ -28,14 +28,14 @@ export default {
     return {
       creds: [
         {
-          iconSrc: '/TAM-Stack.png',
+          iconSrc: '/TAM-LogoBox.svg',
           institution: 'Texas A&M University',
           degree: 'Master of Science in Visualization',
-          year: '2018',
+          year: 'Expected 2018',
           thesis: 'Historical Data in Situational Awareness Displays using Dynamic Ego-centric Graphs'
         },
         {
-          iconSrc: '/TAM-Stack.png',
+          iconSrc: '/TAM-LogoBox.svg',
           institution: 'Texas A&M University',
           degree: 'Bachelor of Science in Computer Science',
           year: '2012'
