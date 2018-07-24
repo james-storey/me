@@ -4,9 +4,12 @@
 		{
 			"path": ".",
 			"index_exclude_patterns": [
-  				"node_modules/**",
-  				".nuxt/**"
-  			]
+  				"node_modules",
+  				".nuxt"
+  			],
+			"folder_exclude_patterns": [
+				"node_modules"
+			]
 		}
 	],
 	"settings":
