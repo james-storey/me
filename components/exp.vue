@@ -28,7 +28,7 @@ export default {
           role: 'Software Engineer',
           startDate: 'Jan. 2016',
           endDate: 'Present',
-          notes: 'Full-Stack, Online services, API design, Cloud Infrastructure'
+          notes: 'Full-Stack, Online services, API design, Cloud Infrastructure Architect'
         },
         {
           iconSrc: '/TAM-Stack.png',

@@ -20,12 +20,11 @@
           .tile.is-child.box
             article
               skills
-    .tile
-      .tile.is-parent
-        .tile.is-child.box
-          article
-            proj
   .tile.is-parent
+      .tile.is-child.box
+        article
+          proj
+//.tile.is-parent
     .tile.is-child.box
       article
         h1.title Blog
@@ -44,8 +43,7 @@
       'edu': Edu,
       'exp': Exp,
       'skills': Skills,
-      'proj': Proj,
-      'blog': Blog
+      'proj': Proj
     },
     data () {
       return {

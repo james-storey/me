@@ -12,6 +12,7 @@ footer.footer
 <style lang="scss">
   @import "../_variables.scss";
   .footer {
-    color: $grey-light
+    color: $grey-light;
+    padding: 2rem 1.5rem 2rem;
   }
 </style>

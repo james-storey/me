@@ -1,5 +1,5 @@
 <template lang="pug">
-div 
+div
   h1.title Projects
   .columns
     .column(v-for="g in projects")
@@ -15,32 +15,32 @@ div
 export default {
   name: 'proj',
   data () {
-    let dataValues = { 
+    return {
       projects: [
         [
           {
             name: "Research",
             status: "on going",
             year: "2016-2018",
-            description: ''
+            description: '<a href="https://gitlab.sysreturn.net/auxreturn/rsrch">Investigation on dynamic situational awarness data visualization techniques.</a>'
           },
           {
             name: "SchwayFlower",
             status: "on going",
             year: "2017-2018",
-            description: ''
+            description: 'A Music Visualization and interaction framework for Unity3D. Used in live A/V concerts'
           },
           {
             name: "Net League",
             status: "incomplete",
             year: "2017",
-            description: ''
+            description: '<a href="https://gitlab.sysreturn.net/auxreturn/net_league">Netrunner collaborative card inventory management software</a>'
           },
           {
             name: "Parking Garage Data Collection",
             status: "complete",
             year: "2018",
-            description: ''
+            description: 'Website Scrapper and data collector in Bash'
           }
         ],
         [
@@ -48,36 +48,36 @@ export default {
             name: "Tallies",
             status: "hiatus",
             year: "2017-2018",
-            description: ''
+            description: '<a href="https://gitlab.sysreturn.net/auxreturn/attend">Realtime classroom aids for gathering attendence</a>'
           },
           {
-            name: "Music Visualizers",
+            name: "Shaders and real-time effects",
             status: "complete",
             year: "2015-2017",
-            description: ''
+            description: '<ul><li><a href="https://gitlab.sysreturn.net/auxreturn/imgsynth">Realtime GPU accelerated ray-tracer</a></li>'+
+              '<li><a href="https://gitlab.sysreturn.net/auxreturn/physical-modeling">Realtime Physical modeling</a></li></ul>'
           },
           {
             name: "Game Jams",
             status: "complete",
             year: "2014-2017",
-            description: ''
+            description: 'Various project submissions to Ludum Dare and Chillenium'
           },
           {
             name: "Generative Art",
             status: "complete",
             year: "2016",
-            description: ''
+            description: '<a href="https://gitlab.sysreturn.net/auxreturn/genart">Generative art work displayed in local galleries</a>'
           }
         ]
       ]
     }
-    return dataValues
   }
 }
 </script>
 
 <style lang="scss">
 .project-item {
-
+  margin-bottom: 2rem;
 }
 </style>
