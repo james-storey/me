@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "pub": "next generate && rsync -vr --delete ./dist/* root@couch.sysreturn.net:/srv/www/me"
+    "pub": "next generate && rsync -vr --delete ./dist/* root@104.236.32.79:/srv/www/jastorey.me"
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.1",
@@ -21,5 +21,8 @@
     "pug": "^2.0.3",
     "sass-loader": "^7.0.1",
     "webpack": "^4.8.3"
+  },
+  "config": {
+    "modified": "2018-07-24"
   }
 }
