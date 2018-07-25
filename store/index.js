@@ -5,7 +5,9 @@ export const state = () => ({
 })
 
 export const mutations = {
-
+  setCurrentTag (state, payload) {
+    state.currentTag = payload
+  }
 }
 
 export const action = {

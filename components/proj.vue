@@ -34,7 +34,7 @@ export default {
             name: "Net League",
             status: "incomplete",
             year: "2017",
-            description: '<a href="https://gitlab.sysreturn.net/auxreturn/net_league">Netrunner collaborative card inventory management software</a>'
+            description: '<a href="https://gitlab.sysreturn.net/auxreturn/net_league">Collaborative card inventory management software for the Netrunner card game</a>'
           },
           {
             name: "Parking Garage Data Collection",
@@ -46,16 +46,16 @@ export default {
         [
           {
             name: "Tallies",
-            status: "hiatus",
+            status: "on hiatus",
             year: "2017-2018",
-            description: '<a href="https://gitlab.sysreturn.net/auxreturn/attend">Realtime classroom aids for gathering attendence</a>'
+            description: '<a href="https://gitlab.sysreturn.net/auxreturn/attend">Realtime classroom aid for gathering attendence in large classrooms</a>'
           },
           {
             name: "Shaders and real-time effects",
             status: "complete",
             year: "2015-2017",
-            description: '<ul><li><a href="https://gitlab.sysreturn.net/auxreturn/imgsynth">Realtime GPU accelerated ray-tracer</a></li>'+
-              '<li><a href="https://gitlab.sysreturn.net/auxreturn/physical-modeling">Realtime Physical modeling</a></li></ul>'
+            description: '<ul><li><a href="https://gitlab.sysreturn.net/auxreturn/imgsynth">Realtime GPU accelerated ray-tracer</a>,</li>'+
+              '<li><a href="https://gitlab.sysreturn.net/auxreturn/physical-modeling">Realtime physics simulations in the browser</a></li></ul>'
           },
           {
             name: "Game Jams",
