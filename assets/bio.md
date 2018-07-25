@@ -1,5 +1,5 @@
 # Bio
-James Storey is a Software Developer who started his career in and around serious and educational video games in 2013.
+James Storey is a Software Engineer who started his career in and around serious and educational video games in 2013.
 He started freelance as a Unity3D programming generalist. In the intervening years, he has developed a robust knowledge of
 distributed systems, network communication, and highly available servers.
 James as built and shipped backend processes, APIs, web applications, metric collection servers, and other systems in support of the video game products at Triseum, LLC.
