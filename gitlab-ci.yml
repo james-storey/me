@@ -1,0 +1,17 @@
+stages:
+  - deploy
+
+publish site:
+  stage: deploy
+  cache:
+    paths:
+      - node_modules/
+  tags:
+    - yarn
+    - nuxt
+  before_script:
+    - yarn install
+  script:
+    - yarn run deploy
+  only:
+    - master
