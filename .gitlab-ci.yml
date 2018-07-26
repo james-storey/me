@@ -12,6 +12,6 @@ publish site:
   before_script:
     - yarn install
   script:
-    - yarn run deploy
+    - yarn run pub
   only:
     - master
