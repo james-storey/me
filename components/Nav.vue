@@ -24,7 +24,8 @@
     .navbar-start
       .navbar-item
         ul
-          li.role-link(v-for="role in roles" :class="{ selected: role.selected }") {{role.name}}
+          li.role-link(v-for="role in roles" :class="{ selected: role.selected }")
+            router-link(:to="role.link") {{role.name}}
     .navbar-end
 </template>
 
@@ -41,30 +42,48 @@ export default {
       roles: [
         {
           selected: true,
-          name: "Software Engineer"
+          name: 'Software Engineer',
+          link: 'engineer'
         },
         {
           selected: false,
-          name: "System Administrator"
+          name: 'System Administrator',
+          link: 'sysadmin'
         },
         {
           selected: false,
-          name: "Art and Photography"
+          name: 'Art and Photography',
+          link: 'art'
         },
         {
           selected: false,
-          name: "Music"
+          name: 'Music',
+          link: 'music'
         }
       ]
     }
   },
   computed: {
-    liame: function () {
+    liame () {
       let rev = []
       for(let i = this.email.length - 1; i >= 0; i--) {
         rev.push(this.email[i])
       }
       return rev.join('')
+    },
+    currentTag () {
+      return this.$store.state.currentTag
+    }
+  },
+  watch: {
+    currentTag: function (newTag) {
+      this.roles.forEach((v) => {
+        if (v.link === newTag) {
+          v.selected = true
+        } else {
+          v.selected = false
+        }
+      })
     }
   }
 }
@@ -127,6 +146,9 @@ export default {
   &:hover {
     color: $black-bis;
     cursor: pointer;
+  }
+  a {
+    color: inherit;
   }
 }
 .selected {
