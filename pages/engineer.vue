@@ -37,7 +37,7 @@
   import Exp from '~/components/exp.vue'
   import Skills from '~/components/skills.vue'
   import Proj from '~/components/proj.vue'
-  import Blog from '~/components/blog.vue'
+  // import Blog from '~/components/blog.vue'
   export default {
     components: {
       'edu': Edu,
@@ -57,15 +57,5 @@
 </script>
 
 <style lang="scss">
-@import "../_variables.scss";
-.tile.is-ancestor {
-  margin: 1.25rem;
-  @include mobile {
-    margin: 0.25rem;
-  }
-}
-.box {
-  border: $border-width solid $black-bis;
-  box-shadow: $shadow-width $shadow-width 0 $primary;
-}
+
 </style>
