@@ -31,7 +31,7 @@ export default {
           iconSrc: '/TAM-LogoBox.svg',
           institution: 'Texas A&M University',
           degree: 'Master of Science in Visualization',
-          year: 'Expected 2018',
+          year: 'Expected 2019',
           thesis: 'Historical Data in Situational Awareness Displays using Dynamic Ego-centric Graphs'
         },
         {
