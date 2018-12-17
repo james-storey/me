@@ -1,6 +1,6 @@
 {
   "name": "me",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "personal portfolio website",
   "main": "index.js",
   "repository": "https://gitlab.sysreturn.net/auxreturn/me",
@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "pub": "nuxt generate && rsync -vr --delete ./dist/* root@104.236.32.79:/srv/www/jastorey.me"
+    "pub": "nuxt generate && rsync -vr --delete ./dist/* root@jastorey.me:me/data"
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.1",
@@ -23,6 +23,6 @@
     "webpack": "^4.8.3"
   },
   "config": {
-    "modified": "2018-07-24"
+    "modified": "2018-10-23"
   }
 }
