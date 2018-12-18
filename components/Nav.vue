@@ -49,16 +49,6 @@ export default {
           selected: false,
           name: 'System Administrator',
           link: 'sysadmin'
-        },
-        {
-          selected: false,
-          name: 'Art and Photography',
-          link: 'art'
-        },
-        {
-          selected: false,
-          name: 'Music',
-          link: 'music'
         }
       ]
     }

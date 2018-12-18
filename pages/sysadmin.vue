@@ -41,7 +41,7 @@ export default {
           whiteText: true,
           icon: '',
           time: 'August 2017 - January 2018',
-          description: 'AWS serverless architecture for Tallies attendance system. Interfaced with twillio SMS messages.'
+          description: 'AWS serverless application for my Tallies attendance system. Interfaced with twillio for SMS message sending and retrieval.'
         },
         {
           title: 'CouchDB',
@@ -61,12 +61,21 @@ export default {
           description: 'I attempted to run a mastodon server at one point. Important lessons about database and asset backups were learned the hard way.'
         },
         {
-          title: 'Mini Compute Cluster',
+          title: 'Mini Home Lab',
           background: '#c51a4a',
           whiteText: true,
           icon: '',
           time: 'November 2016 - Present',
-          description: 'I keep 2-3 single-board computers running as a tiny automation datacenter at home. They can be pretty useful for running automatic tasks and local network services.'
+          description: 'I keep 2-3 single-board computers running as a home lab cluster. They can be pretty useful for running automatic tasks and local network services.'
+        },
+        {
+          title: 'Gitea',
+          background: '#669a23',
+          whiteText: true,
+          icon: '',
+          time: 'November 2018 - Present',
+          description: 'In my obsession with improving my tools, I have started to move my git server application to gitea for better economics, simpler features, and easier admin',
+          link: 'https://git.sysreturn.net'
         }
       ]
     }
