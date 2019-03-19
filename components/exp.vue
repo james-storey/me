@@ -3,7 +3,7 @@ div
   h1.title Experience
   div(v-for='(item, index) in jobs')
     .columns
-      .column.is-one-fifth.exp-icon
+      .column.is-one-forth.exp-icon
         img(:src="item.iconSrc")
       .column
         .columns
@@ -23,11 +23,19 @@ export default {
     return {
       jobs: [
         {
+          iconSrc:'/WinR-Logo-White.svg',
+          company: 'Winreality',
+          role: 'Software Engineer',
+          startDate: 'Jan. 2019',
+          endDate: 'Present',
+          notes: 'Network API design and Implementation, ETL, Backend'
+        },
+        {
           iconSrc: '/Triseum_color.svg',
           company: 'Triseum, LLC',
           role: 'Software Engineer',
           startDate: 'Jan. 2016',
-          endDate: 'Present',
+          endDate: 'Jan. 2019',
           notes: 'Full-Stack, Online services, API design, Cloud Infrastructure Architect'
         },
         {
