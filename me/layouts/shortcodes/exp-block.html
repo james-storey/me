@@ -1,0 +1,19 @@
+<div style="display: flex; align-items: center; margin-bottom: 1rem;">
+  <span>
+    <img src="{{ .Get "img"}}" style="width: 76px;">
+  </span>
+  <span style="margin-left: 1rem; flex-basis:60%;">
+    <div>
+      {{.Get "company"}}
+    </div>
+    <div>
+      {{.Get "role"}}
+    </div>
+    <div>
+      {{.Get "notes"}}
+    </div>
+  </span>
+  <span>
+    {{.Get "start"}} - {{.Get "end"}}
+  </span>
+</div>
