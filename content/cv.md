@@ -60,7 +60,11 @@ draft: false
 * NGINX
 * MariaDB / MySQL
 * C# / .NET
+* Lua
+* Haskell
 * Unity3D game engine
+* OpenGL + GLSL
+* C
 
 ### Knowledge
 * Web Application Development
@@ -73,3 +77,4 @@ draft: false
 * Database Design
 * Security Best-Practices
 * Agile Development Methodologies
+* Realtime rendering and shading
