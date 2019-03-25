@@ -14,7 +14,7 @@ enableRobotsTXT = true
 
   # Metadata mostly used in document's head
   description = "James Storey's Homepage, CV, and blog"
-  keywords = "homepage, blog, science, informatics, development, programming"
+  keywords = "homepage, blog, resume, development, programming, engineer"
   images = [""]
 
   # Directory name of your blog content (default is `content/posts`)
@@ -32,7 +32,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    keywords = "homepage, blog, science, informatics, development, programming"
+    keywords = "homepage, blog, resume, development, programming, engineer"
 
     readOtherPosts = "Read other posts"
     disableKinds = ["RSS"]
@@ -50,7 +50,7 @@ url  = "https://www.linkedin.com/in/james-storey-04231934/"
 name = "github"
 url  = "https://github.com/james-storey"
 [[params.social]]
-name = "git"
+name = "gitea"
 url  = "https://git.sysreturn.net/auxreturn"
 
 # And you can even create generic menu
@@ -63,7 +63,7 @@ url  = "https://git.sysreturn.net/auxreturn"
     identifier = "cv"
     name       = "CV"
     url        = "/cv"
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+#  [[menu.main]]
+#    identifier = "blog"
+#    name       = "Blog"
+#    url        = "/posts"
