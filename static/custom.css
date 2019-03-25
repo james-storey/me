@@ -1,0 +1,22 @@
+.cv__block {
+  margin-bottom: 1rem;
+}
+
+.cv__block img {
+  width: 48px;
+}
+
+@media(min-width: 684px) {
+  .cv__block {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+  }
+  .cv__block img {
+    width: 76px;
+  }
+  .cv__block--content {
+    margin-left: 1rem;
+    flex-basis:60%;
+  }
+}

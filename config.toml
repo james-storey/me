@@ -23,6 +23,7 @@ enableRobotsTXT = true
   defaultTheme = "light"
   title = "James Storey"
   homeSubtitle = "Software Engineer"
+  customCSS = ["/custom.css"]
 
   [params.logo]
     logoText = "hello"
