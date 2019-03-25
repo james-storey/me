@@ -1,0 +1,19 @@
+<div class="cv__block">
+  <span>
+    <img src="{{ .Get "img"}}">
+  </span>
+  <span class="cv__block--content">
+    <div>
+      <b>{{.Get "role"}}</b>
+    </div>
+    <div>
+      {{.Get "company"}}
+    </div>
+    <div>
+      {{.Get "notes"}}
+    </div>
+  </span>
+  <span>
+    {{.Get "start"}} - {{.Get "end"}}
+  </span>
+</div>

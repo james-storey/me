@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 252 252"
+   version="1.1"
+   sodipodi:docname="TAM-LogoBox.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata4590">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1579"
+     inkscape:window-height="1065"
+     id="namedview4588"
+     showgrid="false"
+     inkscape:zoom="2.6488444"
+     inkscape:cx="107.25162"
+     inkscape:cy="129.28973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4565">
+    <style
+       id="style4563">.cls-1{fill:#500000;}.cls-2{fill:#fff;}.cls-3{fill:#b1b3b6;}</style>
+  </defs>
+  <title
+     id="title4567">Artboard 1</title>
+  <rect
+     class="cls-1"
+     x="8.4277287"
+     y="10.076563"
+     width="231.75"
+     height="233.59111"
+     id="rect4569"
+     style="fill:#500000;stroke-width:1.28750002" />
+  <polygon
+     class="cls-2"
+     points="178.13,108.37 177.78,109.07 168.09,129.25 158.36,109.06 158.02,108.37 157.25,108.37 144.33,108.37 143.11,108.37 143.11,109.6 143.11,116.48 143.11,117.71 144.33,117.71 146.54,117.71 146.54,146.61 144.15,146.61 142.92,146.61 142.92,147.84 142.92,154.72 142.92,155.95 144.15,155.95 158.66,155.95 159.89,155.95 159.89,154.72 159.89,147.84 159.89,146.61 158.66,146.61 156.15,146.61 156.15,126.1 166.99,148.45 168.09,150.73 169.21,148.45 180.16,126.05 180.16,146.61 177.77,146.61 176.53,146.61 176.53,147.84 176.53,154.72 176.53,155.95 177.77,155.95 192.27,155.95 193.5,155.95 193.5,154.72 193.5,147.84 193.5,146.61 192.27,146.61 189.77,146.61 189.77,117.71 192.27,117.71 193.5,117.71 193.5,116.48 193.5,109.6 193.5,108.37 192.27,108.37 178.9,108.37 "
+     id="polygon4571"
+     transform="matrix(1.2875,0,0,1.2875,-38.141144,-36.479438)"
+     style="fill:#ffffff" />
+  <path
+     class="cls-2"
+     d="m 100.90886,152.24231 h -4.969754 l -16.171,-37.3375 h 3.11575 v -12.07675 h -25.956 v 12.03813 h 3.57925 l -16.158125,37.3375 h -6.733625 v 12.03812 h 23.56125 v -12.03812 h -3.42475 l 2.690875,-6.21863 h 19.44125 l 2.678,6.21863 h -3.617875 v 12.03812 H 102.51823 V 152.20369 Z M 74.669606,133.99844 h -9.0125 l 4.50625,-10.44163 z"
+     id="path4573"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;stroke-width:1.28750002" />
+  <polygon
+     class="cls-2"
+     points="73.69,72.08 73.69,73.49 73.69,100.69 73.69,102.1 75.1,102.1 92.68,102.1 94.09,102.1 94.09,100.69 94.09,90.59 115.81,90.59 115.81,162.26 105.7,162.26 104.3,162.26 104.3,163.67 104.3,181.25 104.3,182.66 105.7,182.66 146.3,182.66 147.71,182.66 147.71,181.25 147.71,163.67 147.71,162.26 146.3,162.26 136.21,162.26 136.21,90.59 157.8,90.59 157.8,100.56 157.8,101.97 159.21,101.97 176.91,101.97 178.32,101.97 178.32,100.56 178.32,73.49 178.32,72.08 176.91,72.08 75.1,72.08 "
+     id="polygon4575"
+     transform="matrix(1.2875,0,0,1.2875,-38.141144,-36.479438)"
+     style="fill:#ffffff" />
+  <polygon
+     class="cls-3"
+     points="143.52,178.34 139.22,174.23 139.22,170.63 143.52,166.2 "
+     id="polygon4577"
+     transform="matrix(1.2875,0,0,1.2875,-38.141144,-36.479438)"
+     style="fill:#b1b3b6" />
+  <polygon
+     class="cls-3"
+     points="127.75,82.14 132.06,86.43 132.06,166.52 127.75,170.76 "
+     id="polygon4579"
+     transform="matrix(1.2875,0,0,1.2875,-38.141144,-36.479438)"
+     style="fill:#b1b3b6" />
+  <polygon
+     class="cls-3"
+     points="171.98,76.28 166.42,80.58 82.31,80.58 77.89,76.28 "
+     id="polygon4581"
+     transform="matrix(1.2875,0,0,1.2875,-38.141144,-36.479438)"
+     style="fill:#b1b3b6" />
+  <polygon
+     class="cls-3"
+     points="169.96,82.98 174.26,78.56 174.26,98.03 169.96,93.92 "
+     id="polygon4583"
+     transform="matrix(1.2875,0,0,1.2875,-38.141144,-36.479438)"
+     style="fill:#b1b3b6" />
+  <path
+     class="cls-1"
+     d="m 242.19615,239.04556 a 4.647875,4.647875 0 1 1 4.64787,4.64788 4.647875,4.647875 0 0 1 -4.64787,-4.64788 z m 8.16275,0 a 3.514875,3.514875 0 1 0 -3.51488,3.74663 3.566375,3.566375 0 0 0 3.51488,-3.74663 z m -5.3045,-2.65225 h 1.957 c 1.2875,0 1.94412,0.43775 1.94412,1.545 a 1.2875,1.2875 0 0 1 -1.37762,1.41625 l 1.41625,2.30463 h -1.00425 l -1.37763,-2.29175 h -0.59225 v 2.25312 h -0.9785 z m 0.9785,2.25313 h 0.86262 c 0.57938,0 1.0815,-0.0773 1.0815,-0.78538 0,-0.70812 -0.5665,-0.721 -1.06862,-0.721 h -0.8755 z"
+     id="path4585"
+     inkscape:connector-curvature="0"
+     style="fill:#500000;stroke-width:1.28750002" />
+</svg>

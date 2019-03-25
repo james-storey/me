@@ -1,0 +1,70 @@
+baseURL = "https://jastorey.me/"
+languageCode = "en-us"
+title = "James Storey"
+theme = "hello-friend-ng"
+enableRobotsTXT = true
+[author]
+  name = "James Storey"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "James Storey's Homepage, CV, and blog"
+  keywords = "homepage, blog, resume, development, programming, engineer"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+  title = "James Storey"
+  homeSubtitle = "Software Engineer"
+  customCSS = ["/custom.css"]
+
+  [params.logo]
+    logoText = "hello"
+    logoHomeLink = "/"
+    path = "/profile.jpg"
+    alt = "profile image"
+
+[languages]
+  [languages.en]
+    keywords = "homepage, blog, resume, development, programming, engineer"
+
+    readOtherPosts = "Read other posts"
+    disableKinds = ["RSS"]
+
+[[params.social]]
+name = "email"
+url = "mailto:jastorey@fastmail.com"
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/auxreturn"
+[[params.social]]
+name = "linkedin"
+url  = "https://www.linkedin.com/in/james-storey-04231934/"
+[[params.social]]
+name = "github"
+url  = "https://github.com/james-storey"
+[[params.social]]
+name = "gitea"
+url  = "https://git.sysreturn.net/auxreturn"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "cv"
+    name       = "CV"
+    url        = "/cv"
+#  [[menu.main]]
+#    identifier = "blog"
+#    name       = "Blog"
+#    url        = "/posts"
